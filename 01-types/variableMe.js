@@ -1,11 +1,12 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 // string
-var greetings = "Hello Fritzs";
+let greetings = "Hello Fritzs";
 console.log(greetings);
 // number
-var mynum = 12;
+let mynum = 12;
 console.log(mynum);
 // boolean
-var isLogedIn = false;
+let isLogedIn = false;
 console.log(isLogedIn);
+//# sourceMappingURL=variableMe.js.map

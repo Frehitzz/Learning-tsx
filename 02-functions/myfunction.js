@@ -9,11 +9,13 @@ function getUpper(val) {
 }
 function signUp(name, email, isPaid) { }
 // using typesript on arrow funtion
-var loginUser = function (name, email, isPaid) {
-    if (isPaid === void 0) { isPaid = true; }
-};
+let loginUser = (name, email, isPaid = true) => { };
 // isPiad: booleant = true  - setting up a default value
+let getHello = (name) => {
+    return "Hello";
+};
 numAdd(5);
 getUpper("hello");
 signUp("Fritz", "@gmail.com", true);
 loginUser("h", "fhd@gmail.com");
+//# sourceMappingURL=myfunction.js.map
