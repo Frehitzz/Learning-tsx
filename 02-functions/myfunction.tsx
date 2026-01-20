@@ -17,6 +17,15 @@ let getHello = (name: string): string => {
   return "Hello";
 };
 
+const anime = ["luffy", "zoro", "nami"];
+anime.map((item): string => {
+  return `anime character: ${item}`;
+});
+
+function consoleErrmsg(Errmsg: string) {
+  console.log(Errmsg);
+}
+
 numAdd(5);
 getUpper("hello");
 signUp("Fritz", "@gmail.com", true);
